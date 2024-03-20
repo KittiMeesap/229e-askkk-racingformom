@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ReloadScene : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider col)
+    public float threshold;
+
+    private void FixedUpdate()
     {
-        if (col.CompareTag("Player"))
+        if (transform.position.y >  threshold)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            transform.position = new Vector3(-7.71f,0f,0f);
         }
     }
 }
