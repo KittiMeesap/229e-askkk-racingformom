@@ -630,7 +630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ebcae5baec7d17f40a43b2adfd5e2707, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1351,7 +1351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 828a44fc0b6fb824280c8f2142524c38, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1474,7 +1474,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ebcae5baec7d17f40a43b2adfd5e2707, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1661,6 +1661,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1385546740168499195, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385546740168499195, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385546740168499195, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9857896
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385546740168499195, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.16798514
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385546740168499195, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 19.341
+      objectReference: {fileID: 0}
     - target: {fileID: 2433942570609275524, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1736,8 +1756,8 @@ SceneRoots:
   - {fileID: 875150489}
   - {fileID: 792528742}
   - {fileID: 600763214}
-  - {fileID: 2964934994640279779}
   - {fileID: 1149107485}
+  - {fileID: 2964934994640279779}
   - {fileID: 696322152}
   - {fileID: 1341850575}
   - {fileID: 1470776475}
