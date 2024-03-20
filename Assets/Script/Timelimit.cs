@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timelimit : MonoBehaviour
@@ -9,7 +10,6 @@ public class Timelimit : MonoBehaviour
     float currentTime = 0;
     public float startingTime = 10f;
     public TMP_Text CountDownText;
-    public GameObject gameOverPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +27,13 @@ public class Timelimit : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
-            gameOverPanel.SetActive(true);
             Time.timeScale = 0;
         }
+
+        if (currentTime == 0) 
+        {
+            SceneManager.LoadSceneAsync(2);
+        }
+
     }
 }
