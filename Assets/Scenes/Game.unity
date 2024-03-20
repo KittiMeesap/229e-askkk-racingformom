@@ -6559,11 +6559,11 @@ PrefabInstance:
       objectReference: {fileID: 1017665336}
     - target: {fileID: 1543304601331593888, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
       propertyPath: v.x
-      value: -14
+      value: -41
       objectReference: {fileID: 0}
     - target: {fileID: 1543304601331593888, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
       propertyPath: v.y
-      value: 4
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1543304601331593888, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
       propertyPath: v.z
@@ -6579,7 +6579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1543304601331593888, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
       propertyPath: angularV.y
-      value: 3.5
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 1543304601331593888, guid: c40de23e72e937149b7ad9eaddb3f555, type: 3}
       propertyPath: angularV.z
