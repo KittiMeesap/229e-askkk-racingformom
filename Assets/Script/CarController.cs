@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class CarController : MonoBehaviour
 {
     public Rigidbody rb;
+    public Vector3 angularV, v;
 
     public float forwardACC = 8f, reverseACC = 4f, maxSpeed = 50f, turnStrength = 180, gravityForce = 10f , dragOnGround = 3f;
 
@@ -92,6 +93,14 @@ public class CarController : MonoBehaviour
                 var emissonModule = part.emission;
                 emissonModule.rateOverTime = emissionRate;
             }
+
+            if(Input.GetKeyDown(KeyCode.Space))
+        {
+                rb.angularVelocity = angularV;
+                rb.velocity = v;
+            }
+
+            //rb.AddForce(Vector3.Cross(rb.angularVelocity, rb.velocity));
         }
     }
 }
